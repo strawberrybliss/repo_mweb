@@ -17,13 +17,21 @@ body > div {
 h1 {
     color: rgb(180, 50, 104);
     justify-content: center;
+    display: flex;
 }
 
 h2 {
     color: rgb(102, 27, 58);
     justify-content: center;
+    display: flex;
 }
 
+.cont {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
 
 body {
     background-color: rgb(241, 190, 190);
