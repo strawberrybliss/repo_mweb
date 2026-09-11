@@ -16,10 +16,12 @@ body > div {
 
 h1 {
     color: rgb(180, 50, 104);
+    justify-content: center;
 }
 
 h2 {
     color: rgb(102, 27, 58);
+    justify-content: center;
 }
 
 
