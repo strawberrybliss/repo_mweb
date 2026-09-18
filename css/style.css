@@ -7,32 +7,64 @@
 
 /* este selector universal selecciona todos los elementos del html */
 
+.menubarra {
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    padding-bottom: 1em;
+    padding-top: 1em;
+    position: fixed;
+}
+
+.menubarra li {
+    margin: 0 4em;
+}
+
+.menubarra a {
+    text-decoration: none;
+    color: rgb(158, 39, 84);
+    font-size: 1em;
+}
+
 body > div {
     padding: 3rem;
     margin: 2rem;
     background-color: rgb(219, 150, 171);
     border: rgb(214, 70, 113);
+    justify-content: center;
+    display: flex;
+    height: 15vh;
 }
 
 h1 {
     color: rgb(180, 50, 104);
-    justify-content: center;
-    display: flex;
 }
 
 h2 {
     color: rgb(102, 27, 58);
-    justify-content: center;
-    display: flex;
 }
 
-.cont {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+.header-cont {
+    padding-top: 15rem;
     flex-direction: column;
+    text-align: center;
+}
+
+.header-cont > h1 {
+    font-size: 2.5rem;
+}
+
+.header-cont > p {
+    font-size: 1.25rem;
+    max-width: 60rem;
+    padding-top: 1.5em;
+    color: white;
 }
 
 body {
-    background-color: rgb(241, 190, 190);
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    justify-content: center;
 }
